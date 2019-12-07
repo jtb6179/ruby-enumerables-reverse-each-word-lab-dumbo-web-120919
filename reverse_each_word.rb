@@ -5,5 +5,5 @@ new = []
    new << i.reverse 
     
   end
-  new.join(" ")
+  new.collect(" ")
 end
